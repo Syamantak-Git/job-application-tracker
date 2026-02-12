@@ -5,15 +5,16 @@ import { DropdownMenuItem } from "./ui/dropdown-menu";
 import { useRouter } from "next/navigation";
 
 export default function SignOutButton() {
-    const router = useRouter()
+  const router = useRouter();
+
   return (
     <DropdownMenuItem
       onClick={async () => {
         const result = await signOut();
         if (result.data) {
-            router.push("/sign-in")
+          router.push("/sign-in");
         } else {
-            alert("Error signing out")
+          alert("Error signing out");
         }
       }}
     >
