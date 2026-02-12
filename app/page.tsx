@@ -34,9 +34,9 @@ export default function Home() {
 
         {/* Features Section */}
         <section className="border-t bg-white py-24">
-          <div className="container mx-auto px-4">
+          <div className="container mx-auto px-4 text-center">
             <div className="grid gap-12 md:grid-cols-3">
-              <div className="flex flex-col">
+              <div className="flex flex-col items-center">
                 <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
                   <Briefcase className="h-6 w-6 text-primary" />
                 </div>
@@ -48,7 +48,7 @@ export default function Home() {
                   applications at every stage of the process.
                 </p>
               </div>
-              <div className="flex flex-col">
+              <div className="flex flex-col items-center">
                 <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
                   <TrendingUp className="h-6 w-6 text-primary" />
                 </div>
@@ -60,7 +60,7 @@ export default function Home() {
                   offer with visual Kanban boards.
                 </p>
               </div>
-              <div className="flex flex-col">
+              <div className="flex flex-col items-center">
                 <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
                   <CheckCircle2 className="h-6 w-6 text-primary" />
                 </div>
